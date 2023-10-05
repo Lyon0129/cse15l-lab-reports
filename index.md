@@ -31,14 +31,14 @@ This output has error, because cd can not use to navigate to a file, it won't op
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ad87bc1c-26fe-4b74-bf4c-842a615e689e)
 This is first "cat" command of using the command with on arguments. The working directory was "home" when the command was run.
 I got this output because "cat"  requires a file argument to display its contents.
-This output has error, reason is in line 34.
+This output has error, because cat needs a file argument to display its contents.
 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/56001c6f-7df5-4ff8-8b8d-75f4b6d5803d)
 This is second "cat" command of useing the command with a path to a directory as an argument. The working directory was "/home/lecture1" when the command was run.
 I got this ouput because I cannot use cat with a directory; it's meant for displaying file contents.
-This output has error, reason is in line 38.
+This output has error, cat is used for display file contents, not for directory.
 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/992e15d5-3afa-471e-806f-f8ca5ee6481d)
 This is third "cat" command of using the command with a path to a file as an argument. The working directory was "/home/lecture1/messages" when the command was run.
-I got thi output because cat will display the contents of a specific file named "example.txt."
+I got this output because cat will display the contents of a specific file named "example.txt."
 This output has no error.
