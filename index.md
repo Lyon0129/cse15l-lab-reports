@@ -15,7 +15,7 @@ This output has no error.
 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/897f5c58-9d76-4451-82ef-8018c9d3deb2)
 This is first "cd" command of using the command with no arguments. The working directory was "home" when the command was run.
-I got this output because "cd" only changing my home directory, I didn't give it argument, so it won't change anything.
+I got this output because "cd" only changing my current directory, but it requires an argument. I didn't give it argument, so it won't change anything.
 This output has no error.
 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/f1aac11e-065f-4b2a-af92-a16c1bf69abd)
