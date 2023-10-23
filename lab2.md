@@ -73,7 +73,7 @@ public class StringServer {
 Part2
 
 ![91fdb0a3a219b6aefc67cfeff52fc6a](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/2e1e51eb-86a7-4134-beff-1c904ba91863)
-![56c62d0de7953b26df16821eaf54487](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/f15d510f-5cb3-4c83-b1ff-91d579b40fca)
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/cdaba673-e56a-49c5-ac74-823669d76ad0)
 
 Part3
 I have learned about how to how to building and running a server.
