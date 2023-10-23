@@ -39,7 +39,7 @@ public class StringServer {
         }
     }
 }
-![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/1c6a538f-de02-42dc-b56d-bb3c08fb15f2)
+![f455e3fda9b0039a1bfc858ffe5ae91](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c7cc1ccb-c789-4f2f-a983-319f28bb8318)
 
 1. Which methods in your code are called?
   The server is started with the main method.
