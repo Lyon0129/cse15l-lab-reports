@@ -39,7 +39,7 @@ public class StringServer {
         }
     }
 }
-<img width="446" alt="image" src="https://github.com/Lyon0129/Lab-report2/assets/130290363/2fd0196e-dc51-4fec-8090-3c1f4632452b">
+
 1. Which methods in your code are called?
   The server is started with the main method.
   The server waits for incoming HTTP requests.
