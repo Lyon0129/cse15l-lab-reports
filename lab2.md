@@ -39,7 +39,7 @@ public class StringServer {
         }
     }
 }
-
+![79e24f2c43b52d055fcb64e4494704a](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/e341ac66-5ca5-41da-9e0c-3ba432c0d6ed)
 1. Which methods in your code are called?
   The server is started with the main method.
   The server waits for incoming HTTP requests.
@@ -58,7 +58,8 @@ public class StringServer {
   The purpose of the server is to keep track of incoming messages by adding them sequentially to the messages list. 
   Each time a valid request to /add-message?s=<string> is received, the string value is extracted and appended to the list with its     sequence number. 
   This behavior results in a change in the messages field for every valid request.
-![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/5e579269-cb34-41db-807d-34135e757dd9)
+
+![f455e3fda9b0039a1bfc858ffe5ae91](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c7cc1ccb-c789-4f2f-a983-319f28bb8318)
 1. Which methods in your code are called?
   the specific methods that get called when the "How are you" message is added (resulting in the "1. Hello\n2. How are you" response) are the handle method of the MessageHandler class. The internal state of the messages list changes with each new request to keep track of all the messages sent to the server.
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
@@ -70,9 +71,10 @@ public class StringServer {
   During the request: The code extracts the message How are you from the request? It then appends the next sequence number (in this case, 2) and the extracted message to the messages list.
   After the request: The messages list now contains two entries: ["1. Hello", "2. How are you"].
 Part2
-![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/0eb765a0-dc65-4f4c-8fa1-ecd79ae801da)
-![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/95be1e6c-7e4c-4944-8f9c-2b882619fd8c)
-![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/4a8d28c1-dc0f-4e19-91fc-25046af757b5)
+
+![91fdb0a3a219b6aefc67cfeff52fc6a](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/2e1e51eb-86a7-4134-beff-1c904ba91863)
+![56c62d0de7953b26df16821eaf54487](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/f15d510f-5cb3-4c83-b1ff-91d579b40fca)
+
 Part3
 I have learned about how to how to building and running a server.
 I also know about how to set my SSH keys for easy access.
