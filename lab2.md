@@ -39,7 +39,7 @@ public class StringServer {
         }
     }
 }
-![79e24f2c43b52d055fcb64e4494704a](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/e341ac66-5ca5-41da-9e0c-3ba432c0d6ed)
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/81a19d6a-5bd0-49ee-9079-c30d56f2d515)
 1. Which methods in your code are called?
   The server is started with the main method.
   The server waits for incoming HTTP requests.
