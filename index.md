@@ -41,7 +41,8 @@
 4. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   When the request /add-message?s=Hello is processed:
 
-  The value of count 
+  The value of count is changed from 1 to 2.
+  The value of output is changed from "" to "1. hello\n"
 
   
 ## Screenshot 2
@@ -56,7 +57,7 @@
     
     ServerHttpHandler.handle(final HttpExchange exchange)
     
-    This is the method in ServerHttpHandler that is called every time there is an HTTP request to the server's context path. It manages the request-response lifecycle.
+    This is the method in ServerHttpHandler that is called every time there is an HTTP request to the server's context path
     handler.handleRequest(exchange.getRequestURI())
     
     Within the handle method, this line is invoked to process the request URI, which will include the query part with the new message ("How are you"). It calls the handleRequest method of the URLHandler interface that ServerHttpHandler has been initialized with. The actual handling logic (parsing the request and formulating a response) would be within this method.
@@ -68,11 +69,9 @@
     The response body (which now includes "1. Hello\n2. How are you") is written to the output stream.
     os.close()
     The output stream is closed, finalizing the response.
-    The handleRequest method must have logic that appends the new message to the existing messages. The actual code that handles the message addition and storage isn't provided here. It would typically be a part of the implementation of the URLHandler interface, where messages are likely being stored in a list or other data structure and then formatted into the string response that includes all messages received so far.
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   HttpServer.create
 Argument 1: new InetSocketAddress(port) where port is an int that specifies the port number the server will listen on.
-Argument 2: 0 which is the backlog, the maximum number of queued incoming connections to allow. A value of 0 means use the system default value.
 server.createContext
 Argument 1: "/" which is a String representing the root context path that this handler will be associated with.
 Argument 2: new ServerHttpHandler(handler) where handler is an instance of a class that implements the URLHandler interface, responsible for handling the logic of the incoming requests.
@@ -91,10 +90,8 @@ The URLHandler interface would have a method handleRequest(URI url) that takes a
 
 For instance, when processing the request /add-message?s=Hello, the URI object would have the path /add-message and the query string s=Hello. If the URLHandler implementation appends messages to a list or concatenates them into a String, these would not be part of the ServerHttpHandler class but instead part of the state within the URLHandler implementation.
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  How it changes from this specific request:
-  Before the request: Due to the prior request of /add-message?s=Hello, the messages list already contains: ["1. Hello"].
-  During the request: The code extracts the message How are you from the request? It then appends the next sequence number (in this case, 2) and the extracted message to the messages list.
-  After the request: The messages list now contains two entries: ["1. Hello", "2. How are you"].
+  The value of count is changed from 2 to 3.
+  The value of output is changed from "" to "1. hello\n2. how are you"
 
 # Part2
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/0eb765a0-dc65-4f4c-8fa1-ecd79ae801da)
