@@ -10,22 +10,22 @@
 
 ## Screenshot 1
 1. Which methods in your code are called?
-   The .start(port, handler) method of Server.java
+   The .start(port, handler) method of Server.java  
    
-   The .create method of HttpServer
-   The .createContext method of HttpServer
-   The .start method of HttpServer
+   The .create method of HttpServer  
+   The .createContext method of HttpServer  
+   The .start method of HttpServer  
    
-   The .handleRequest method of URLHandler
-   The .getRequestURI method of HttpExchange
-   The .sendResponseHeaders method of HttpExchange
-   The .getResponseBody of HttpExchange
+   The .handleRequest method of URLHandler  
+   The .getRequestURI method of HttpExchange  
+   The .sendResponseHeaders method of HttpExchange  
+   The .getResponseBody of HttpExchange  
+  
+   The .getQuery method of URI  
+   The .getPath method of URI  
 
-   The .getQuery method of URI
-   The .getPath method of URI
-
-   The .write of OutputStream
-   The .close of OutputStream
+   The .write of OutputStream  
+   The .close of OutputStream  
    
    
   The server is started with the main method.
