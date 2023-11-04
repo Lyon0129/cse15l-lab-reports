@@ -28,38 +28,39 @@
    The .close of OutputStream  
    
    
-  The server is started with the main method.
-  The server waits for incoming HTTP requests.
-  On receiving a request for /add-message?s=Hello, it triggers the handle method of MessageHandler.
+  The server is started with the main method.  
+  The server waits for incoming HTTP requests.  
+  On receiving a request for /add-message?s=Hello, it triggers the handle method of MessageHandler.  
   This method processes the message "Hello", adds it to the list of messages, and sends the response back to the client (browser).
-3. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  int port: The port number on which the server will run.
-  URLHandler handler: The user-defined handler that processes requests.
-  HttpServer server: The HTTP server instance.
-  HttpExchange exchange: Contains details of the HTTP request/response.
-  URI url: The request URI passed to the handleRequest method.
-4. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  When the request /add-message?s=Hello is processed:
+3. What are the relevant arguments to those methods, and the values of any relevant fields of the class?  
+  int port: The port number on which the server will run.   
+  URLHandler handler: The user-defined handler that processes requests.  
+  HttpServer server: The HTTP server instance.  
+  HttpExchange exchange: Contains details of the HTTP request/response.  
+  URI url: The request URI passed to the handleRequest method.  
+4. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.  
+  When the request /add-message?s=Hello is processed:  
 
-  The value of count is changed from 1 to 2.
-  The value of output is changed from "" to "1. hello\n"
-  URI does not change past our initial input to after it processes
+  The value of count is changed from 1 to 2.  
+  The value of output is changed from "" to "1. hello\n"  
+  URI does not change past our initial input to after it processes  
 
   
 ## Screenshot 2
-1. Which methods in your code are called?
-  HttpServer.create(new InetSocketAddress(port), 0)
-    This method is called once when the server is being set up before it starts. It binds the server to a specific port number.
-  server.createContext("/", new ServerHttpHandler(handler))
-    This method is called during the setup process as well, and it establishes a context for the root path /. It associates an instance of     ServerHttpHandler with the root context.
-  server.start()
-    This method starts the server. It's called once after the server has been set up with the necessary context and before it begins listening for incoming HTTP requests.
-    Once the server is running, for each incoming request:
+1. Which methods in your code are called?  
+  HttpServer.create(new InetSocketAddress(port), 0)  
+    This method is called once when the server is being set up before it starts. It binds the server to a specific port number.  
+  server.createContext("/", new ServerHttpHandler(handler))  
+    This method is called during the setup process as well, and it establishes a context for the root path /. It associates an instance of     ServerHttpHandler with the root context.  
+  server.start()  
+    This method starts the server. It's called once after the server has been set up with the necessary context and before it begins  
+ listening for incoming HTTP requests.
+    Once the server is running, for each incoming request:  
     
-    ServerHttpHandler.handle(final HttpExchange exchange)
-    
-    This is the method in ServerHttpHandler that is called every time there is an HTTP request to the server's context path
-    handler.handleRequest(exchange.getRequestURI())
+    ServerHttpHandler.handle(final HttpExchange exchange)  
+      
+    This is the method in ServerHttpHandler that is called every time there is an HTTP request to the server's context path  
+    handler.handleRequest(exchange.getRequestURI())  
     
     Within the handle method, this line is invoked to process the request URI, which will include the query part with the new message ("How are you"). It calls the handleRequest method of the URLHandler interface that ServerHttpHandler has been initialized with. The actual handling logic (parsing the request and formulating a response) would be within this method.
     exchange.sendResponseHeaders(200, ret.getBytes().length) 
