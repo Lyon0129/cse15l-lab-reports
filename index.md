@@ -1,3 +1,4 @@
+# Part 1
 <img width="652" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/01410f06-8626-443b-af85-b4909c452221">
 
 
@@ -5,7 +6,7 @@
 <img width="446" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/8d551aee-aec4-4158-aa25-c0386dd023e7">
 <img width="581" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ae426cd-71c3-4b46-a562-560985e5b566">
 
-
+## Screenshot 1
 1. Which methods in your code are called?
   The server is started with the main method.
   The server waits for incoming HTTP requests.
@@ -24,7 +25,8 @@
   The purpose of the server is to keep track of incoming messages by adding them sequentially to the messages list. 
   Each time a valid request to /add-message?s=<string> is received, the string value is extracted and appended to the list with its     sequence number. 
   This behavior results in a change in the messages field for every valid request.
-![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/5e579269-cb34-41db-807d-34135e757dd9)
+
+## Screenshot 2
 1. Which methods in your code are called?
   the specific methods that get called when the "How are you" message is added (resulting in the "1. Hello\n2. How are you" response) are the handle method of the MessageHandler class. The internal state of the messages list changes with each new request to keep track of all the messages sent to the server.
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
@@ -35,7 +37,8 @@
   Before the request: Due to the prior request of /add-message?s=Hello, the messages list already contains: ["1. Hello"].
   During the request: The code extracts the message How are you from the request? It then appends the next sequence number (in this case, 2) and the extracted message to the messages list.
   After the request: The messages list now contains two entries: ["1. Hello", "2. How are you"].
-Part2
+
+# Part2
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/0eb765a0-dc65-4f4c-8fa1-ecd79ae801da)
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/95be1e6c-7e4c-4944-8f9c-2b882619fd8c)
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/4a8d28c1-dc0f-4e19-91fc-25046af757b5)
@@ -44,7 +47,7 @@ Part2
 On my local machine, the path to my public key is ~/.ssh/id_rsa.pub and the path to my private key is ~/.ssh/id_rsa
 On the ieng6 server, the path to my public key is ~/.ssh/authorized_keys
 
-Part3
+# Part3
 I have learned how to how to building and run a server.
 I also know about how to set my SSH keys for easy access.
 
