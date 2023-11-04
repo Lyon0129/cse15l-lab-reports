@@ -43,6 +43,7 @@
 
   The value of count is changed from 1 to 2.
   The value of output is changed from "" to "1. hello\n"
+  URI does not change past our initial input to after it processes
 
   
 ## Screenshot 2
@@ -92,6 +93,8 @@ For instance, when processing the request /add-message?s=Hello, the URI object w
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of count is changed from 2 to 3.
   The value of output is changed from "" to "1. hello\n2. how are you"
+    URI does not change past our initial input to after it processes
+
 
 # Part2
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/0eb765a0-dc65-4f4c-8fa1-ecd79ae801da)
