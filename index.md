@@ -1,45 +1,10 @@
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpExchange;
+<img width="652" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/01410f06-8626-443b-af85-b4909c452221">
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.InetSocketAddress;
-import java.util.ArrayList;
-import java.util.List;
 
-public class StringServer {
 
-    private static final List<String> messages = new ArrayList<>();
+<img width="446" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/8d551aee-aec4-4158-aa25-c0386dd023e7">
+<img width="581" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ae426cd-71c3-4b46-a562-560985e5b566">
 
-    public static void main(String[] args) throws Exception {
-        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
-        server.createContext("/add-message", new MessageHandler());
-        server.setExecutor(null);
-        server.start();
-    }
-
-    static class MessageHandler implements HttpHandler {
-        @Override
-        public void handle(HttpExchange exchange) throws IOException {
-            String query = exchange.getRequestURI().getQuery();
-            String response = "Invalid request.";
-
-            if (query != null && query.startsWith("s=")) {
-                String message = query.substring(2).replace("%20", " "); // rudimentary URL decoding
-                messages.add((messages.size() + 1) + ". " + message);
-
-                response = String.join("\n", messages);
-            }
-
-            exchange.sendResponseHeaders(200, response.getBytes().length);
-            try (OutputStream os = exchange.getResponseBody()) {
-                os.write(response.getBytes());
-            }
-        }
-    }
-}
-![bc9edaf34330ba67f4419b961d99f9f](https://github.com/Lyon0129/cse15l-lab-reports2/assets/130290363/87543ec0-8a46-478a-87a8-860c49892cb4)
 
 1. Which methods in your code are called?
   The server is started with the main method.
@@ -74,6 +39,10 @@ Part2
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/0eb765a0-dc65-4f4c-8fa1-ecd79ae801da)
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/95be1e6c-7e4c-4944-8f9c-2b882619fd8c)
 ![image](https://github.com/Lyon0129/Lab-report2/assets/130290363/4a8d28c1-dc0f-4e19-91fc-25046af757b5)
+<img width="567" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/aed17195-c19f-4136-86a7-aa37807b5d9b">
+<img width="710" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ede0ba3c-9afc-4d35-bcf3-5784ee5dc067">
+On my local machine, the path to my public key is ~/.ssh/id_rsa.pub and the path to my private key is ~/.ssh/id_rsa
+On the ieng6 server, the path to my public key is ~/.ssh/authorized_keys
 
 Part3
 I have learned how to how to building and run a server.
