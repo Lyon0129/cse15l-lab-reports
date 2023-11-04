@@ -1,4 +1,6 @@
 # Part 1
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/fe6c6f06-8075-44bb-b7de-9d2a9d10517a)
+
 <img width="652" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/01410f06-8626-443b-af85-b4909c452221">
 
 
