@@ -9,6 +9,10 @@
 <img width="581" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ae426cd-71c3-4b46-a562-560985e5b566">
 
 ## Screenshot 1
+I type localhost:8000/add-message?=hello and it will see the /add-message and it will split "=" and then parameters[1] will be the "hello"
+
+It will then add (count + ". " + parameters[1]) to create the 1. hello
+
 1. Which methods in your code are called?
    The .start(port, handler) method of Server.java  
    
@@ -47,6 +51,10 @@
 
   
 ## Screenshot 2
+I type localhost:8000/add-message?=how%20are%20you and it will see the /add-message and it will split "=" and then parameters[1] will be the "how are you"
+
+It will then add (count + ". " + parameters[1]) to create the 2. how are you
+
 1. Which methods in your code are called?  
   HttpServer.create(new InetSocketAddress(port), 0)  
     This method is called once when the server is being set up before it starts. It binds the server to a specific port number.  
@@ -68,7 +76,7 @@
     OutputStream os = exchange.getResponseBody()
     This line gets the OutputStream that will be used to send the response body.
     os.write(ret.getBytes())
-    The response body (which now includes "1. Hello\n2. How are you") is written to the output stream.
+    The response body (which now includes "1. hello\n2. how are you") is written to the output stream.
     os.close()
     The output stream is closed, finalizing the response.
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
