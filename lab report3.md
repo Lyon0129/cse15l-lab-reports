@@ -54,3 +54,11 @@ after
 }
 ```
 We updating the values of the wrong array, so I changed it, so that we update a newarray instead, also I changed the return value.
+
+# part2
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/0041af3f-55b7-460a-9b80-0668e7976085)
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/d0f70473-fd17-4c42-a91d-6e90e15250dd)
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ff6fec61-21a3-495f-843b-e0ed6d2ea928)
+
+
+
