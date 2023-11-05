@@ -30,6 +30,23 @@ public class ArrayExamples {
 }
 ```
 <img width="751" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/7891cb29-6a6c-4066-b94f-4aed356fee2d">
-
-
+before
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+after                       
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i++) {
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
 
