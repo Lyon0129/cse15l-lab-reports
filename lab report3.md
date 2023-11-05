@@ -1,3 +1,4 @@
+testReversed1 will cause failure, testRerversed2 will success.
 ```
 @Test
 public void testReversed1(){
@@ -5,6 +6,13 @@ public void testReversed1(){
   ArrayExamples.reversed(input2);
   assertArrayEquals(input2, new int[]{5,4,3,2,1});
 }
+@Test
+public void testRerversed2(){
+  int[] input3 = {0,0,0};
+  ArrayExamples.reversed(input3);
+  assertArrayEquals(input3, new int[]{0,0,0});
+}
+
 ```
 ```
 
@@ -13,10 +21,10 @@ public class ArrayExamples {
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i++) {
-        newArray[i] = arr[arr.length - i - 1];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
-    return newArray;
+    return arr;
 }
 }
 ```
