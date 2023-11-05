@@ -60,9 +60,14 @@ We updating the values of the wrong array, so I changed it, so that we update a 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/d0f70473-fd17-4c42-a91d-6e90e15250dd)
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ff6fec61-21a3-495f-843b-e0ed6d2ea928)
 
+<img width="1068" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/31c02511-0896-4e6a-add2-ea465c58363c">
+The ls -R command lists the contents of a directory recursively, meaning that it doesn't just list the target you provide for it, but also descends into every subdirectory within that target (and every subdirectory in each subdirectory, and so on.) 
 
-<img width="1074" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/e33ce8cc-1633-4ad0-b279-c73bfca53515">
-<img width="524" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/567a6b3b-4a44-4c53-8437-7d059098a610">
+
+<img width="863" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/472c097d-fdec-41c5-a044-9f8d5124fab4">
+<img width="1008" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/81045bde-5113-492e-b211-da6bcf5d53b8">
+<img width="872" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/f4b98ff1-7df5-42a5-ba4f-8fd60f478090">
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/18da1ecb-fcfd-4264-ac36-a46122642b46)
 
 
 
