@@ -30,3 +30,6 @@ public class ArrayExamples {
 ```
 <img width="767" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/0b70552e-b506-42ab-ada3-2e1c7950b25c">
 
+<img width="770" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ddccb9d0-7605-4c16-98df-35b2309b6b9d">
+
+
