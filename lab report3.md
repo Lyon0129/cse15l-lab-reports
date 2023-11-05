@@ -39,7 +39,9 @@ static int[] reversed(int[] arr) {
     }
     return arr;
 }
-after                       
+```                       
+after
+                       
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
