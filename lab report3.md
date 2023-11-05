@@ -61,4 +61,9 @@ We updating the values of the wrong array, so I changed it, so that we update a 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ff6fec61-21a3-495f-843b-e0ed6d2ea928)
 
 
+<img width="1074" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/e33ce8cc-1633-4ad0-b279-c73bfca53515">
+<img width="524" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/567a6b3b-4a44-4c53-8437-7d059098a610">
+
+
+
 
