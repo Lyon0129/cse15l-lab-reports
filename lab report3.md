@@ -53,4 +53,4 @@ after
     return newArray;
 }
 ```
-
+We updating the values of the wrong array, so I changed it, so that we update a newarray instead, also I changed the return value.
