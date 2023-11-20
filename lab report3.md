@@ -73,7 +73,7 @@ The ls -R command lists the contents of a directory recursively, meaning that it
 
 2. This is using typef, d to find Files by Extension
 ``` find./technical -type d -name "*.png" >"789.txt" ```
-``` find./technical -type f -name "*.png" >"789.txt"
+``` find./technical -type f -name "*.png" >"789.txt" ```
 <img width="993" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4d285224-88ba-4f7d-aacc-dd943063b8b5">
 <img width="618" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/5e633592-c77b-449b-8b78-c4ef7df09789">
 <img width="1029" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/555e478f-c504-4c5a-bc5a-4ad7f48a8706">
@@ -81,7 +81,7 @@ The ls -R command lists the contents of a directory recursively, meaning that it
 
 3.This is using typef, d to find Files by size.
 ``` find./technical -type f -size +1k -size -2k >"000.txt" ```
-``` find./technical -type d -size +3k -size -5k >"010.txt" 
+``` find./technical -type d -size +3k -size -5k >"010.txt" ```
 <img width="1073" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/b6eb48af-00ce-44a5-89bd-b1be54616499">
 <img width="713" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4d278591-745a-4c9e-9c05-3518831403ab">
 <img width="1037" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/c8e6c092-d203-4f02-b2b5-1af9e5c8db7f">
