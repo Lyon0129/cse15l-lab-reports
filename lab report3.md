@@ -94,4 +94,4 @@ The ls -R command lists the contents of a directory recursively, meaning that it
 <img width="512" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/1d4c35c6-a2c4-4e1c-b11e-e7d5b0a2cafc">
 <img width="1088" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ae2ff48b-9193-4b9e-9a83-6775aba205c9">
 
-[https://linux.die.net/man/1/find] all of sources are come from this website.
+[https://linux.die.net/man/1/find](url) all of sources are come from this website.
