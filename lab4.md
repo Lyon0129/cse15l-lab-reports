@@ -12,6 +12,6 @@
 ```git<space>states<enter>```
 <img width="903" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a222f4ee-3879-405e-b7b2-54b6bbeb59f4">
 ```git<space>add<space>.<enter>```
-```git<space>space<space>commit<space>-m<space>"change<space>from<space>test1<space>to<space> test2" <enter>
+```git<space>space<space>commit<space>-m<space>"change<space>from<space>test1<space>to<space> test2" <enter>```
 
 
