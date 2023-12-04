@@ -16,6 +16,8 @@ I could use ```<up><up><up>``` with a certain number of ups forllowed by```<ente
 # Step 7
 ```vim ListExamples.java<enter>```  
 ```:44<enter>lllllli<backspace>2<esc>:wq<enter>```  :44 and enter to jump to line44, move six to the right, enter insert mode, delete 1,press 2,esc and :wq to save.  
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/281b8563-6ec5-4af1-b9ae-ea7a556de1a2)
+
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/682c37d2-23c9-4684-a8f7-ac047f06e707)
 
 
