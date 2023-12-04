@@ -14,8 +14,11 @@ I could use ```<up><up><up>``` with a certain number of ups forllowed by```<ente
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ac9fc006-40b5-4623-a093-520c768637eb)
 
 # Step 7
-```<delete>2<enter>```  
-<img width="428" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/508958d8-6212-429e-bc56-c91dbbe975be">
+```vim ListExamples.java<enter>```  
+```:44<enter>lllllli<backspace>2<esc>:wq<enter>```  :44 and enter to jump to line44, move six to the right, enter insert mode, delete 1,press 2,esc and :wq to save.  
+![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/682c37d2-23c9-4684-a8f7-ac047f06e707)
+
+
 ```<up> <enter>```  
 
 <img width="402" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ec8c290-3765-4d30-8dfb-8fcf9a23715e">
