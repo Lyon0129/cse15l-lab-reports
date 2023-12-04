@@ -1,11 +1,11 @@
 
 # Step 4
-Keys pressed: ```ssh cs15lfa23cr@ieng6.ucsd.edu<enter>```  
+Keys pressed: ```ssh cs15lfa23cr@ieng6.ucsd.edu<enter>```  login to my ieng6 account.  
 I could use ```<up><up><up>``` with a certain number of ups forllowed by```<enter>```, but it is easier to type command.  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a730bb27-2fce-4850-8a70-8f4a4f1646b1)
 
 # Step 5
-```git clone git@github.com:Lyon0129/lab7.git<enter> ```  
+```git clone git@github.com:Lyon0129/lab7.git<enter> ```  git clone the fork repository in lab7.  
 <img width="537" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/156220f7-9c0f-4da4-ba04-7fd1afcfd22c">
 
 
@@ -15,7 +15,7 @@ I could use ```<up><up><up>``` with a certain number of ups forllowed by```<ente
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ac9fc006-40b5-4623-a093-520c768637eb)
 
 # Step 7
-```vim ListExamples.java<enter>```  
+```vim ListExamples.java<enter>```  edit the code by vim editor.  
 ```:44<enter>lllllli<backspace>2<esc>:wq<enter>```  :44 and enter to jump to line44, move six to the right, enter insert mode, delete 1,press 2,esc and :wq to save.  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/281b8563-6ec5-4af1-b9ae-ea7a556de1a2)
 
