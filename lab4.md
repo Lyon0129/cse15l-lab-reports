@@ -1,17 +1,19 @@
 
 # Step 1
-```ssh cs15lfa23cr@ieng6.ucsd.edu <enter>```  
-I could use ```<up><up><up>``` with a certain number of ups forllowed by```<enter>```
+Keys pressed: ```ssh cs15lfa23cr@ieng6.ucsd.edu<enter>```  
+I could use ```<up><up><up>``` with a certain number of ups forllowed by```<enter>```, but it is easier to type command.  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a730bb27-2fce-4850-8a70-8f4a4f1646b1)
 
 # Step 2
-```git clone https://github.com/Lyon0129/lab7.git <enter> ```  
+```git clone https://github.com/Lyon0129/lab7.git<enter> ```  
 <img width="571" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/82552f6f-6d7f-4055-a8cf-cfcad93e9cef">
-```cd lab7<enter>``` to enter lab7 directory  
-```bash test.sh<enter>``` to run test bash script  
 
 # Step 3
+```cd lab7<enter>``` to enter lab7 directory  
+```bash test.sh<enter>``` to run test bash script  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ac9fc006-40b5-4623-a093-520c768637eb)
+
+# Step 4
 ```<delete>2<enter>```  
 <img width="428" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/508958d8-6212-429e-bc56-c91dbbe975be">
 ```<up> <enter>```  
