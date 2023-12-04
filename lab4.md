@@ -26,9 +26,11 @@ I could use ```<up><up><up>``` with a certain number of ups forllowed by```<ente
 <img width="348" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a7d36200-864a-4a16-9fca-fb2ecf542ff2">
 
 # step 9
-```git add .```  
-```git commit -m "fix"```  
+```git add .<enter>```  
+```git commit -m "fix"<enter>``` 
+``` git push<enter>```  
 <img width="511" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/e5502446-8409-43d8-b5c2-a2bd8ac7ffb1">
+<img width="519" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/f18a8457-9235-492d-bc52-0e4fec87a059">
 
 
 
