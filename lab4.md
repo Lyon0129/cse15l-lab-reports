@@ -1,27 +1,25 @@
 
-# Step 1
+# Step 4
 Keys pressed: ```ssh cs15lfa23cr@ieng6.ucsd.edu<enter>```  
 I could use ```<up><up><up>``` with a certain number of ups forllowed by```<enter>```, but it is easier to type command.  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a730bb27-2fce-4850-8a70-8f4a4f1646b1)
 
-# Step 2
+# Step 5
 ```git clone https://github.com/Lyon0129/lab7.git<enter> ```  
 <img width="571" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/82552f6f-6d7f-4055-a8cf-cfcad93e9cef">
 
-# Step 3
+# Step 6
 ```cd lab7<enter>``` to enter lab7 directory  
 ```bash test.sh<enter>``` to run test bash script  
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/ac9fc006-40b5-4623-a093-520c768637eb)
 
-# Step 4
+# Step 7
 ```<delete>2<enter>```  
 <img width="428" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/508958d8-6212-429e-bc56-c91dbbe975be">
 ```<up> <enter>```  
 
 <img width="402" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ec8c290-3765-4d30-8dfb-8fcf9a23715e">
 ```git<space>states<enter>```  
-<img width="903" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a222f4ee-3879-405e-b7b2-54b6bbeb59f4">
 ```git<space>add<space>.<enter>```  
-```git<space>space<space>commit<space>-m<space>"change<space>from<space>test1<space>to<space> test2" <enter>```  
 
 
