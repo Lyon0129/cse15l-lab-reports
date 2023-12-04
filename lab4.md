@@ -20,11 +20,14 @@ I could use ```<up><up><up>``` with a certain number of ups forllowed by```<ente
 
 ![image](https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/682c37d2-23c9-4684-a8f7-ac047f06e707)
 
+# step 8  
+```bash test.sh<enter>```  run the test.  
+<img width="348" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/a7d36200-864a-4a16-9fca-fb2ecf542ff2">
 
-```<up> <enter>```  
+# step 9
+```git add .```  
+```git commit -m "fix"```  
+<img width="511" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/e5502446-8409-43d8-b5c2-a2bd8ac7ffb1">
 
-<img width="402" alt="image" src="https://github.com/Lyon0129/cse15l-lab-reports/assets/130290363/4ec8c290-3765-4d30-8dfb-8fcf9a23715e">
-```git<space>states<enter>```  
-```git<space>add<space>.<enter>```  
 
 
