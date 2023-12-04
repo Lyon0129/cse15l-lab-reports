@@ -19,7 +19,6 @@ use command ```:12``` to go to line 12. ```i``` to edit the file, change ```1 ``
 In the labs, I know how to use Vim to edit my file.
 Efficiency: Vim's keybindings are designed to keep your fingers on the home row, which can make editing much faster once you've learned the commands.
 Powerful Search and Replace: Vim's search and replace capabilities are very powerful and can handle complex patterns and text manipulations with ease.
-
 I also know how to login to my ieng6 account without enter paassword and how to git push my file to github.
 
 
